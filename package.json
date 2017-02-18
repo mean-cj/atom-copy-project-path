@@ -6,13 +6,12 @@
   "keywords": [
     "copy"
   ],
-  "repository": "https://github.com/mean-cj/atom-copy-project-path",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jnwaletzko/atom-copy-project-path.git"
+    "url": "git+https://github.com/mean-cj/atom-copy-project-path.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
   }
 }
