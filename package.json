@@ -1,12 +1,12 @@
 {
   "name": "simple-copy-path",
   "main": "./lib/simple-copy-path.js",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Adds copy project path and full path to editor and tab menus",
   "keywords": [
     "copy"
   ],
-  "repository": "https://github.com/mean-cj/atom-copy-project-path",
+  "repository": "https://github.com/jnwaletzko/atom-copy-project-path",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
