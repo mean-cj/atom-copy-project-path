@@ -1,50 +1,23 @@
-menu: [
-  label: "Packages",
-  submenu: [
-    label : "Simple Copy Path"
-    submenu: [
-      {
-        label: "Copy Project Path"
-        command: "copy-project-relative-path"
-      }
-      {
-        label: "Copy Full Path"
-        command: "copy-full-path"
-      }
-      {
-        label: "Get Namespace"
-        command: "get-namespace"
-      }
-    ]
-  ]
-]
 "context-menu":
   "atom-workspace": [
-    {
-      label: "Copy Project Path"
-      command: "copy-project-relative-path"
-    }
-    {
-      label: "Copy Full Path"
-      command: "copy-full-path"
-    }
-    {
-      label: "Get Namespace"
-      command: "get-namespace"
-    }
-  ]
-  ".tab.copy-path": [
-    {type: 'separator'}
-    {
-      label: "Copy Project Path"
-      command: "copy-project-relative-path"
-    }
-    {
-      label: "Copy Full Path"
-      command: "copy-full-path"
-    }
-    {
-      label: "Get Namespace"
-      command: "get-namespace"
-    }   
+	  label: "Get Path"
+	  submenu: [
+		    {
+		      label: "Get Path"
+		      command: "get-path"
+		    }
+		    {
+		      label: "Get Path for @lang()"
+		      command: "get-path:forlang"
+		    }
+		    {
+		      label: "Copy Project Path"
+		      command: "copy-project-relative-path"
+		    }
+		    {
+		      label: "Copy Full Path"
+		      command: "copy-full-path"
+		    }
+
+	    ]
   ]
