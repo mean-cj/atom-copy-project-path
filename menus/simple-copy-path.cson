@@ -11,6 +11,10 @@ menu: [
         label: "Copy Full Path"
         command: "copy-full-path"
       }
+      {
+        label: "Get Namespace"
+        command: "get-namespace"
+      }
     ]
   ]
 ]
@@ -24,6 +28,10 @@ menu: [
       label: "Copy Full Path"
       command: "copy-full-path"
     }
+    {
+      label: "Get Namespace"
+      command: "get-namespace"
+    }
   ]
   ".tab.copy-path": [
     {type: 'separator'}
@@ -35,4 +43,8 @@ menu: [
       label: "Copy Full Path"
       command: "copy-full-path"
     }
+    {
+      label: "Get Namespace"
+      command: "get-namespace"
+    }   
   ]
